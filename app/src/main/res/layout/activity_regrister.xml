@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1976D2"
+    android:orientation="vertical"
+    tools:context=".authenticayion.RegristerActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:text="Create new account"
+            android:textColor="#fff"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linrear_edittxt"
+        android:layout_width="match_parent"
+        android:layout_height="457dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/useer_name2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#F3EFEF"
+            android:hint="FullName"
+            android:inputType="text"
+            android:padding="16dp"
+            android:textColorHint="#000"
+            />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#F3EFEF"
+            android:hint="Email"
+            android:inputType="text"
+            android:padding="16dp"
+            android:textColorHint="#000" />
+
+        <EditText
+            android:id="@+id/password2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#F3EFEF"
+            android:hint="Password"
+            android:inputType="numberPassword"
+            android:padding="16dp"
+            android:textColorHint="#000" />
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#F3EFEF"
+            android:hint="Phone"
+            android:inputType="numberDecimal"
+            android:padding="16dp"
+            android:textColorHint="#000" />
+
+        <RadioGroup
+            android:id="@+id/radio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/r_male"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Male"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/r_famale"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Fmale"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/signup"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_marginTop="16dp"
+            android:background="#FFA000"
+            android:text="Sign Up"
+            android:textColor="#F5F0F0"
+            android:textSize="30dp"
+            android:textStyle="italic" />
+    </LinearLayout>
+</LinearLayout>
