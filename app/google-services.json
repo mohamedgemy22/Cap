@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "924706222065",
+    "firebase_url": "https://caprofidaproject.firebaseio.com",
+    "project_id": "caprofidaproject",
+    "storage_bucket": "caprofidaproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924706222065:android:0da2636319315dcb3d9e50",
+        "android_client_info": {
+          "package_name": "com.enggemy22.cap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "924706222065-3ahnt1992ggi1ru81qcvt8bmljlcjk85.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.enggemy22.cap",
+            "certificate_hash": "19959ff58647ffc548c4a1f05b6cbc720c431156"
+          }
+        },
+        {
+          "client_id": "924706222065-igr006udsgnugf3lgk4tkfg4u259fu9s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoUi59oVdD0NEH6e0Xjql-FiDKc1uYiDc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "924706222065-igr006udsgnugf3lgk4tkfg4u259fu9s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
